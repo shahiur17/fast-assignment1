@@ -231,19 +231,18 @@ body {
 /* =====================
    FOOTER
 ===================== */
-/* =====================
-   FOOTER
-===================== */
 .footer {
   background-color: #061c2f;
   color: #ffffff;
   padding: 25px 60px;
+  font-family: Arial, sans-serif;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; 
   margin-bottom: 15px;
 }
 
@@ -254,8 +253,9 @@ body {
 /* Social section */
 .social-icons {
   display: flex;
-  flex-direction: column; /* লেখার উপরে, আইকন নিচে */
+  flex-direction: column; 
   align-items: center;
+  margin-top: 10px;
 }
 
 .social-text {
@@ -275,8 +275,18 @@ body {
   height: 24px;
   width: 24px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .social-icons img:hover {
   transform: scale(1.2);
 }
+
+/* Copyright text */
+.footer p:last-child {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
