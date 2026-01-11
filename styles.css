@@ -1,0 +1,240 @@
+/* =====================
+  BASE
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #ffffff;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #3a8f5b;
+  color: #ffffff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: green;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* =====================
+   HERO SECTION
+===================== */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+              url("./img/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  color: #ffffff;
+}
+
+.hero .badge {
+  display: inline-block;
+  background: #ffffff;
+  color: #3a8f5b;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #4caf50;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* =====================
+   Notes Section
+===================== */
+.problem {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.problem h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* Cards layout */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* Card style */
+.card {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+/* image background orange */
+.card img {
+  width: 52px;
+  height: 52px;
+  background-color: #ff6a3d;
+  padding: 12px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* =====================
+   Second Brain Section
+===================== */
+.solution {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 40px;
+}
+
+.solution-img img {
+  width: 100%;
+  max-width: 420px;
+}
+
+.solution-text {
+  max-width: 500px;
+}
+
+.solution .tag {
+  color: #3a8f5b;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.solution h2 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.solution-text ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.solution-text li {
+  margin-bottom: 12px;
+}
+
+/* =====================
+   Early Access Section
+===================== */
+.cta {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+  background-color: #061c2f;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+
