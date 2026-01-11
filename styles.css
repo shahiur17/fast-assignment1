@@ -65,7 +65,7 @@ body {
 }
 
 /* =====================
-   HERO SECTION
+   Banner SECTION
 ===================== */
 .hero {
   height: 90vh;
@@ -231,10 +231,38 @@ body {
 /* =====================
    FOOTER
 ===================== */
+/* =====================
+   FOOTER
+===================== */
 .footer {
   background-color: #061c2f;
   color: #ffffff;
-  text-align: center;
-  padding: 25px;
+  padding: 25px 60px;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.social-icons a {
+  margin-left: 15px;
+}
+
+.social-icons img {
+  height: 24px;
+  width: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
 
