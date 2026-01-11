@@ -251,8 +251,24 @@ body {
   height: 40px;
 }
 
-.social-icons a {
-  margin-left: 15px;
+/* Social section */
+.social-icons {
+  display: flex;
+  flex-direction: column; /* লেখার উপরে, আইকন নিচে */
+  align-items: center;
+}
+
+.social-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.social-icons .icons {
+  display: flex;
+  gap: 15px;
 }
 
 .social-icons img {
@@ -264,5 +280,3 @@ body {
 .social-icons img:hover {
   transform: scale(1.2);
 }
-
-
